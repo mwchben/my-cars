@@ -1,0 +1,43 @@
+body {
+    background: blanchedalmond;
+    color: rgb(0, 0, 0);
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav a {
+    color: blanchedalmond;
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+form {
+    max-width: 500px;
+}
+
+input, textarea {
+    margin: 16px 0;
+    display: block;
+    padding: 6px 10px;
+    width: 100%;
+    border: 1px rgba(0, 0, 0, 0.568) solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    min-height: 200px;
+}

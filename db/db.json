@@ -1,0 +1,22 @@
+{
+    "cars":[
+        {
+            "id": 0,
+            "model":"audi",
+            "features": "Audi A1, Audi A3, Audi A5, Audi A6, Audi A6, Audi A7, Audi A8, Audi Q2, Audi Q3",
+            "saves": 25
+        },
+        {
+            "id": 1,
+            "model":"benz",
+            "features": "Mercedes-Benz F800 Style, Mercedes-Benz BIOME, Mercedes-Benz BlitzenBenz, Mercedes-Benz F125, Mercedes-Benz Vision EQS",
+            "saves": 27
+        },
+        {
+            "id": 2,
+            "model":"subaru",
+            "features": "Mercedes-Benz F800 Style, Mercedes-Benz BIOME, Mercedes-Benz BlitzenBenz, Mercedes-Benz F125, Mercedes-Benz Vision EQS",
+            "saves": 17
+        }
+    ]
+}
