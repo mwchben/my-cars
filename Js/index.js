@@ -18,8 +18,7 @@ async function renderTheCars(){ //async f(x)
                 <h2>${carData.model}</h2>
                 <p><small>${carData.saves}</small></p>
                 <p>${carData.features.slice(0,100)}</p>
-                <a href="./details.html">More on this...</a>
-
+                <a href="./detailCar.html?id=${carData.id}">More on this...</a>
             </div>
         `
     });

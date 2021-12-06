@@ -14,7 +14,31 @@
         },
         {
             "id": 2,
-            "model":"subaru",
+            "model":"mazda",
+            "features": "Audi A1, Audi A3, Audi A5, Audi A6, Audi A6, Audi A7, Audi A8, Audi Q2, Audi Q3",
+            "saves": 25
+        },
+        {
+            "id": 3,
+            "model":"toyota",
+            "features": "Audi A1, Audi A3, Audi A5, Audi A6, Audi A6, Audi A7, Audi A8, Audi Q2, Audi Q3",
+            "saves": 25
+        },
+        {
+            "id": 4,
+            "model":"audi",
+            "features": "Audi A1, Audi A3, Audi A5, Audi A6, Audi A6, Audi A7, Audi A8, Audi Q2, Audi Q3",
+            "saves": 25
+        },
+        {
+            "id": 5,
+            "model":"bmw",
+            "features": "Audi A1, Audi A3, Audi A5, Audi A6, Audi A6, Audi A7, Audi A8, Audi Q2, Audi Q3",
+            "saves": 25
+        },
+        {
+            "id": 6,
+            "model":"volvo",
             "features": "Subaru Forester, Subaru Outback, Subaru Baja, Subaru Impreza, Subaru Leone, Subaru BRAT",
             "saves": 17
         }
