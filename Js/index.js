@@ -1,6 +1,6 @@
 //fetching data from the db.json
 
-const url = "http://localhost:3000/cars";
+const url = "http://localhost:3000/cars"; //to get it in another order http://localhost:3000/cars?_sort=saves&_order=desc
 const container = document.querySelector('.blogs'); //gets the div class of index.html to inject blog
 
 
