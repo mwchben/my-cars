@@ -1,70 +1,70 @@
 body {
-    background: rgb(240, 240, 240);
-    color: rgb(0, 0, 0);
-    max-width: 960px;
-    margin: 100px auto;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 9px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav h1 {
-    margin: 0;
+  margin: 0;
 }
 
 nav a {
-    text-decoration: none;
-    color: black;
-    background: rgb(85, 197, 95);
-    padding: 10px;
-    margin: 0;
-    border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  background: rgb(85, 197, 95);
+  padding: 10px;
+  margin: 0;
+  border-radius: 20px;
 }
 
-button { 
-    cursor: pointer;
-    background-color: crimson;
+button {
+  cursor: pointer;
+  background-color: crimson;
 }
 
 form {
-    max-width: 500px;
+  max-width: 500px;
 }
 
-input, textarea {
-    margin: 16px 0;
-    display: block;
-    padding: 6px 10px;
-    width: 100%;
-    border: 1px rgba(0, 0, 0, 0.568) solid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+input,
+textarea {
+  margin: 16px 0;
+  display: block;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px rgba(0, 0, 0, 0.568) solid;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 textarea {
-    min-height: 200px;
+  min-height: 200px;
 }
 
 /*................post list.........*/
 
 .post {
-    padding: 16px;
-    background: white;
-    border-radius: 10px;
-    margin: 20px 0;
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
 .post h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .post p {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .post a {
-    color: rgb(99, 96, 93);
+  color: rgb(99, 96, 93);
 }
