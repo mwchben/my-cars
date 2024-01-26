@@ -1,32 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="car.css">
- 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="car.css" />
+
     <title>JSON Server</title>
   </head>
-  <body>       
-      <nav>
-          <h2>
-              All Cars
-          </h2>
-          <a href="./makeCar.html">Add a new car</a>
-      </nav>
+  <body>
+    <nav>
+      <h2>All Cars</h2>
+      <a href="./makeCar.html">Add a new car</a>
+    </nav>
 
-        <form class="search">
-            <!--name= "term" gives it a name property and its value is the input by user as a term
+    <form class="search">
+      <!--name= "term" gives it a name property and its value is the input by user as a term
             to be used in index.js as argument in renderTheCars f(x)-->
-            <input type="text" name="term" placeholder="Search a post"> 
-        </form>
+      <input type="text" name="term" placeholder="Search a post" />
+    </form>
 
-        <div class="blogs">
-            <!--inject blog here from js-->
-        </div>
+    <div class="blogs">
+      <!--inject blog here from js-->
+    </div>
 
-      <script src="./js/index.js"></script>
-    
+    <script src="./js/index.js"></script>
   </body>
 </html>
