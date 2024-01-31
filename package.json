@@ -2,9 +2,13 @@
   "name": "my-cars",
   "version": "1.0.0",
   "description": "cars-json ",
+  "homepage": "https://mwchben.github.io/backendFCC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,7 @@
   "bugs": {
     "url": "https://github.com/mwchben/my-cars/issues"
   },
-  "homepage": "https://github.com/mwchben/my-cars#readme"
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
